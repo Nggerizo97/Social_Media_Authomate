@@ -1,4 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
 .env
-venv
+.venv
+venv/
+
+# Generated images
 *.png
 
+# Social Media Automation specific
+logs/*.log
+!logs/app.log
+media/input/*
+!media/input/README.md
+media/processed/*
+!media/processed/README.md
+media/quarantine/*
+!media/quarantine/README.md
+drivers/
