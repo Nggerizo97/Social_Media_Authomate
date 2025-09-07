@@ -9,3 +9,32 @@
 2025-09-07 03:29:33,577 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
 2025-09-07 03:29:33,639 - social_media_automator - WARNING - Facebook app_id not configured
 2025-09-07 03:29:33,746 - social_media_automator - WARNING - YouTube client_id not configured
+2025-09-07 03:31:33,850 - social_media_automator - WARNING - Some connectors not available: No module named 'selenium'
+2025-09-07 03:31:33,852 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
+2025-09-07 03:31:33,852 - social_media_automator - WARNING - Facebook app_id not configured
+2025-09-07 03:31:33,852 - social_media_automator - WARNING - YouTube client_id not configured
+2025-09-07 03:31:33,856 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on facebook
+2025-09-07 03:31:33,857 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on youtube
+2025-09-07 03:31:33,858 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
+2025-09-07 03:31:33,859 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on tiktok
+2025-09-07 03:31:33,860 - social_media_automator - WARNING - Facebook app_id not configured
+2025-09-07 03:31:33,860 - social_media_automator - WARNING - YouTube client_id not configured
+2025-09-07 03:31:33,860 - social_media_automator - ERROR - Error publishing to instagram: name 'post_to_instagram' is not defined
+2025-09-07 03:31:33,860 - social_media_automator - ERROR - Error publishing to tiktok: name 'post_to_tiktok' is not defined
+2025-09-07 03:31:51,242 - social_media_automator - WARNING - Some connectors not available: No module named 'selenium'
+2025-09-07 03:31:51,243 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
+2025-09-07 03:31:51,244 - social_media_automator - WARNING - Facebook app_id not configured
+2025-09-07 03:31:51,244 - social_media_automator - WARNING - YouTube client_id not configured
+2025-09-07 03:31:51,248 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on facebook
+2025-09-07 03:31:51,249 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on youtube
+2025-09-07 03:31:51,250 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
+2025-09-07 03:31:51,251 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on tiktok
+2025-09-07 03:32:10,213 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
+2025-09-07 03:32:10,214 - social_media_automator - WARNING - Facebook app_id not configured
+2025-09-07 03:32:10,214 - social_media_automator - WARNING - YouTube client_id not configured
+2025-09-07 03:32:10,218 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on facebook
+2025-09-07 03:32:10,219 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on youtube
+2025-09-07 03:32:10,220 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
+2025-09-07 03:32:10,221 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on tiktok
+2025-09-07 03:32:10,222 - social_media_automator - WARNING - Facebook app_id not configured
+2025-09-07 03:32:10,222 - social_media_automator - WARNING - YouTube client_id not configured
