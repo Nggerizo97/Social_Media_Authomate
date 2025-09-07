@@ -4,3 +4,8 @@
 2025-09-07 03:24:18,250 - social_media_automator - INFO - Content compliance check PASSED for media/input/sunset_video.mp4 on youtube
 2025-09-07 03:24:18,252 - social_media_automator - INFO - FILE MOVED | From: media/input/bad_content.mp4 | To: quarantine | Reason: Banned keyword 'violencia' found in content for instagram
 2025-09-07 03:25:00,907 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
+2025-09-07 03:29:03,893 - social_media_automator - WARNING - Facebook app_id not configured
+2025-09-07 03:29:04,001 - social_media_automator - WARNING - YouTube client_id not configured
+2025-09-07 03:29:33,577 - social_media_automator - INFO - Content compliance check PASSED for /home/runner/work/Social_Media_Authomate/Social_Media_Authomate/media/input/sunset_video.mp4 on instagram
+2025-09-07 03:29:33,639 - social_media_automator - WARNING - Facebook app_id not configured
+2025-09-07 03:29:33,746 - social_media_automator - WARNING - YouTube client_id not configured
