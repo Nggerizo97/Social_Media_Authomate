@@ -12,13 +12,18 @@ import logging
 # Add src directory to path for imports
 sys.path.append(str(Path(__file__).parent))
 
+# Import utilities (available from Phase 2)
+from utils.logger import setup_logger
+from utils.policy_checker import check_media_compliance
+
 
 def main():
     """
     Main function that orchestrates the complete social media posting workflow
     """
     print("=== Social Media Automation System ===")
-    print("Phase 1: Architecture and Configuration - COMPLETE")
+    print("Phase 1: Architecture and Configuration - COMPLETE ✓")
+    print("Phase 2: Content Policy Checker Module - COMPLETE ✓")
     print("")
     print("✓ Directory structure created:")
     print("  - /src/connectors (Facebook, Instagram, TikTok, YouTube modules)")
@@ -33,14 +38,39 @@ def main():
     print("  - .env.template (Environment variables template)")
     print("  - requirements.txt (Updated with social media dependencies)")
     print("")
+    print("✓ Policy Checker Module implemented:")
+    print("  - Content compliance validation")
+    print("  - Banned keyword detection")
+    print("  - Automatic quarantine system")
+    print("  - Comprehensive logging")
+    print("")
     print("Next steps:")
-    print("  - Phase 2: Implement policy checker module")
     print("  - Phase 3: Develop social media connectors")
     print("  - Phase 4: Complete main orchestration workflow")
     print("")
-    print("Phase 1 setup completed successfully!")
+    
+    # Test policy checker with any existing files
+    test_policy_checker()
+    
+    print("Current implementation status: Phase 1-2 completed successfully!")
     
     return True
+
+
+def test_policy_checker():
+    """Test policy checker with existing files in input directory"""
+    logger = setup_logger()
+    
+    input_dir = Path(__file__).parent.parent / "media" / "input"
+    media_files = [f for f in input_dir.glob("*") if f.suffix in ['.mp4', '.mov', '.avi', '.jpg', '.jpeg', '.png', '.gif'] and f.name != "README.md"]
+    
+    if media_files:
+        print("Testing policy checker with existing files:")
+        for file_path in media_files:
+            compliance, reason = check_media_compliance(str(file_path), "instagram")
+            status = "✓ PASS" if compliance else "✗ FAIL"
+            print(f"  {status}: {file_path.name} - {reason}")
+        print("")
 
 
 def process_media_files() -> None:
