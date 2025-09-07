@@ -1,8 +1,35 @@
+# AI and Image Generation (existing functionality)
 google-generativeai
 Pillow
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
 python-dotenv
-dotenv
 google-genai
+
+# Social Media APIs
+facebook-sdk
+google-api-python-client
+requests
+urllib3
+
+# Web Automation (Selenium)
+selenium
+webdriver-manager
+
+# Configuration and Utilities
+configparser
+python-dotenv
+pathlib
+typing-extensions
+
+# Logging and File Handling
+logging
+shutil
+os-sys
+pathvalidate
+
+# Content Analysis and Validation
+python-magic
+moviepy
+mutagen
